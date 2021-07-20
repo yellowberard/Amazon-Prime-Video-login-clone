@@ -7,6 +7,7 @@ body {
     height: 100%;
 }
 
+/* Header */
 .head {
     padding: 15px 17px;
     display: flex;
@@ -55,4 +56,52 @@ body {
     font-size: 17px;
     color: white;
     text-decoration: none;
+}
+
+/* First section */
+.content {
+    display: block;
+
+
+}
+
+.login-now {
+    /* display: flex; */
+
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%),
+        url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/1102620_MLP_1440x675_apv189_V3._CB1198675309_.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-left {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    position: relative;
+    padding: 50px 5%;
+    width: 1500px;
+}
+
+.welcome {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.join {
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.login-prime {
+    background-color: #0f79af;
+    color: #fff;
+    margin-top: 38px;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    width: 150px;
 }
