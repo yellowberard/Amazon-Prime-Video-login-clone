@@ -58,16 +58,13 @@ body {
     text-decoration: none;
 }
 
-/* First section */
+/* Part-1 */
+
 .content {
     display: block;
-
-
 }
 
 .login-now {
-    /* display: flex; */
-
     background-color: #000;
     background-image: linear-gradient(to right, #000 40%, transparent 58%),
         url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/1102620_MLP_1440x675_apv189_V3._CB1198675309_.jpg');
@@ -103,5 +100,67 @@ body {
     margin-top: 38px;
     padding: 16px 18px 16px;
     border-radius: 2px;
-    width: 150px;
+    width: 250px;
+    text-align: center;
+
 }
+
+.login-link {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+/* Part-2 */
+
+.start {
+    background-color: #000;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url('https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-Living-Room-V2._CB524587855_.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-right-2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    position: relative;
+    padding: 50px 5%;
+    width: 1500px;
+    padding-left: 1000px;
+}
+
+.entertainment {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.detail {
+    margin-top: 5px;
+    font-size: 21px;
+}
+
+.started {
+    background-color: #0f79af;
+    color: #fff;
+    margin-top: 38px;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    width: 150px;
+    text-align: center;
+}
+
+.start-link {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+/* Part-3 */
