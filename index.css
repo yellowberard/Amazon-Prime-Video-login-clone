@@ -3,8 +3,25 @@
     padding: 0;
 }
 
+html {
+    padding: 0;
+    display: block;
+    margin-right: 1px;
+}
+
 body {
-    height: 100%;
+
+    font-family: Amazon Ember,
+        Amazon Arabic Ember,
+        Arial,
+        sans-serif !important;
+    margin: 0%;
+
+}
+
+.whole {
+    width: 100%;
+
 }
 
 /* Header */
@@ -202,3 +219,34 @@ body {
 
 
 /* Part-4 */
+
+.tv-stick {
+
+    background-color: #000;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url('https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-right-2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    position: relative;
+    padding: 50px 5%;
+    width: 1500px;
+    padding-left: 1000px;
+
+}
+
+.firetv-h1 {
+    font-size: 2.5em;
+}
+
+.firetv-use {
+    margin-top: 5px;
+    font-size: 21px;
+}
