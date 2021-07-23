@@ -7,6 +7,8 @@ html {
     padding: 0;
     display: block;
     margin-right: 1px;
+    /* width: 143%; */
+    box-sizing: border-box;
 }
 
 body {
@@ -16,6 +18,7 @@ body {
         Arial,
         sans-serif !important;
     margin: 0%;
+    width: 100%;
 
 }
 
@@ -29,6 +32,7 @@ body {
     padding: 15px 17px;
     display: flex;
     height: 100%;
+    width: 100%;
     background-color: #004364;
     align-items: center;
 }
@@ -79,6 +83,7 @@ body {
 
 .content {
     display: block;
+    width: 100%;
 }
 
 .login-now {
@@ -248,5 +253,40 @@ body {
 
 .firetv-use {
     margin-top: 5px;
+    font-size: 21px;
+}
+
+/* Part-5 */
+
+.multi-content {
+    display: flex;
+    padding: 60px 5% 30px 5%;
+    justify-content: space-between;
+    min-height: 47vh;
+}
+
+.img3 {
+    text-align: center;
+}
+
+.first {
+    text-align: center;
+}
+
+.second {
+
+    text-align: center;
+
+}
+
+.third {
+    text-align: center;
+}
+
+.h22 {
+    font-size: 36px;
+}
+
+.para {
     font-size: 21px;
 }
