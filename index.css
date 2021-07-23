@@ -290,3 +290,25 @@ body {
 .para {
     font-size: 21px;
 }
+
+/* Part-6 */
+.family {
+
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url('https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content-left-3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    position: relative;
+    padding: 50px 5%;
+    width: 1500px;
+}
