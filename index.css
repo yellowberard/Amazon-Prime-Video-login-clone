@@ -325,3 +325,43 @@ body {
     margin-top: 5px;
     font-size: 21px;
 }
+
+/* footer */
+
+.foot {
+
+    text-align: center;
+    background-color: #222;
+    font-size: 15px;
+    padding: 30px;
+    height: 80px;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+
+}
+
+.lis-of-links {
+    display: flex;
+    text-decoration: none;
+}
+
+.list-of-links li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 4px;
+
+}
+
+.links {
+    text-decoration: none;
+    color: #0f79af;
+
+}
+
+.link-para {
+    color: #b1b1b1
+}
