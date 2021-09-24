@@ -9,6 +9,7 @@ html {
     margin-right: 1px;
     /* width: 143%; */
     box-sizing: border-box;
+    width: 100%;
 }
 
 body {
@@ -17,6 +18,7 @@ body {
         Amazon Arabic Ember,
         Arial,
         sans-serif !important;
+    overflow-x: hidden;
 
 
 }
